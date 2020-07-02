@@ -1,0 +1,150 @@
+@charset "UTF-8";
+/*
+    当前整个网站里面：公共的样式。
+    网站头部 和 底部的样式......
+*/
+/* 公共的样式 */
+.border-none {
+  border: none !important;
+  /* 清除边框 */ }
+
+.bg-none {
+  background: none !important;
+  /* 清除背景 */ }
+
+.float-left {
+  float: left; }
+
+.float-right {
+  float: right; }
+
+.logo-wrap {
+  height: 0;
+  margin: 0 auto; }
+
+/* 版心 */
+.logo-wrap, .bar-wrap, .banner-wrap, .service-wrap, .section-wrap, .tab-wrap {
+  width: 1200px;
+  margin: 0 auto; }
+
+/* 公共的头部样式 */
+.logo-wrap {
+  height: 80px; }
+  .logo-wrap .logo-left {
+    float: left;
+    margin-top: 15px; }
+  .logo-wrap .header-center {
+    float: left;
+    line-height: 80px;
+    margin-left: 180px; }
+    .logo-wrap .header-center input {
+      width: 427px;
+      height: 26px;
+      padding-left: 10px;
+      position: relative; }
+    .logo-wrap .header-center h1 {
+      width: 27px;
+      height: 28px;
+      background-color: #3B99FC;
+      position: absolute;
+      top: 28px;
+      right: 454px;
+      cursor: pointer; }
+      .logo-wrap .header-center h1 img {
+        padding: 7px 0 0 7px; }
+    .logo-wrap .header-center h1:hover {
+      background-color: #2676E3; }
+  .logo-wrap .logo-right {
+    float: left;
+    margin-left: 160px; }
+    .logo-wrap .logo-right .wede {
+      position: relative;
+      float: left;
+      font-size: 14px;
+      color: #3B99FC;
+      cursor: pointer;
+      padding: 30px 0px; }
+      .logo-wrap .logo-right .wede .h1 {
+        display: none;
+        position: absolute;
+        top: 60px;
+        right: -30px;
+        width: 100px;
+        height: 300px;
+        background-color: #fff;
+        border: 1px solid #ccc;
+        z-index: 9; }
+        .logo-wrap .logo-right .wede .h1 div {
+          margin: 0 10px;
+          border-bottom: 1px dashed #ccc; }
+          .logo-wrap .logo-right .wede .h1 div p {
+            font-size: 12px;
+            margin: 10px 0;
+            cursor: pointer; }
+      .logo-wrap .logo-right .wede:hover .h1 {
+        display: block; }
+    .logo-wrap .logo-right span:nth-last-of-type(2) {
+      margin-left: 20px;
+      border-left: 1px solid #3B99FC;
+      line-height: 80px; }
+    .logo-wrap .logo-right span {
+      font-size: 14px;
+      padding-left: 10px;
+      cursor: pointer;
+      line-height: 80px; }
+      .logo-wrap .logo-right span:hover a {
+        color: #3B99FC; }
+
+/* footer */
+.footer-wrap {
+  height: 275px; }
+  .footer-wrap .footer-top {
+    padding-top: 40px;
+    height: 150px;
+    background-color: #F8F8F8; }
+    .footer-wrap .footer-top .top-link {
+      padding-left: 120px;
+      background-color: #ccc; }
+      .footer-wrap .footer-top .top-link .link {
+        float: left;
+        width: 420px;
+        height: 115px; }
+        .footer-wrap .footer-top .top-link .link h1 {
+          font-size: 12px;
+          margin-bottom: 10px; }
+        .footer-wrap .footer-top .top-link .link div a {
+          float: left;
+          margin: 0 10px 15px 0; }
+      .footer-wrap .footer-top .top-link .ewm {
+        width: 492px;
+        float: left;
+        margin-left: 45px; }
+        .footer-wrap .footer-top .top-link .ewm div {
+          float: left;
+          margin-right: 28px; }
+          .footer-wrap .footer-top .top-link .ewm div h1 {
+            font-size: 14px;
+            color: #333333;
+            margin-bottom: 20px; }
+          .footer-wrap .footer-top .top-link .ewm div img {
+            text-align: center; }
+          .footer-wrap .footer-top .top-link .ewm div .img1 {
+            padding-left: 18px; }
+          .footer-wrap .footer-top .top-link .ewm div .img2 {
+            padding-left: 15px; }
+        .footer-wrap .footer-top .top-link .ewm .ewm1 {
+          margin: 0; }
+      .footer-wrap .footer-top .top-link .xx {
+        float: left;
+        margin-top: 39px; }
+  .footer-wrap .footer-button {
+    height: 80px;
+    background-color: #666666;
+    text-align: center; }
+    .footer-wrap .footer-button h1 {
+      color: #C1C1C1;
+      font-size: 14px;
+      line-height: 45px; }
+    .footer-wrap .footer-button h2 {
+      color: #C1C1C1;
+      font-size: 14px; }
