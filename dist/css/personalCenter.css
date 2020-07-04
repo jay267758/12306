@@ -258,9 +258,9 @@
       padding: 5px 0 5px 10px;
       font-size: 12px;
       color: #999999; }
-    .content-wrap .con_bottom .con_left .ul2 .ul2_li .active {
-      background-color: #3685EC;
-      color: #FFFFFF; }
+    .content-wrap .con_bottom .con_left .ul2 .ul2_li .active1 {
+      background-color: #3B99FC;
+      color: #fff; }
     .content-wrap .con_bottom .con_left .ul2 .ul2_li dd:hover {
       color: #3B99FC; }
     .content-wrap .con_bottom .con_left .ul2 img {
@@ -309,6 +309,11 @@
   .content-wrap .con_bottom .div_p {
     display: none; }
   .content-wrap .con_bottom .con_right {
+    position: absolute;
+    /* 使脱离文本流，和二级tab内容叠加，通过js 控制 .div_right 在通过z-index显示相应的内容*/
+    left: 250px;
+    z-index: 1;
+    display: block;
     float: left;
     width: 1040px;
     min-height: 730px;
@@ -380,6 +385,9 @@
   .content-wrap .con_bottom .div_pp {
     display: none; }
   .content-wrap .con_bottom .div_right {
+    position: absolute;
+    /* 使脱离文本流，和一级tab内容叠加，通过js 控制 .div_right 在通过z-index显示相应的内容*/
+    left: 250px;
     display: block;
     float: left;
     width: 1040px;

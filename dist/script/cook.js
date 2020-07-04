@@ -19,6 +19,7 @@ if (!data) {
       removeCookie("Name");
       removeCookie("Pass");
       location.reload([true]);
+      location.href = "../html/login.html";
     }
   });
 } else {
@@ -29,6 +30,7 @@ if (!data) {
       removeCookie("Name");
       removeCookie("Pass");
       location.reload([true]);
+      location.href = "../html/login.html";
     }
   });
 }

@@ -69,6 +69,16 @@ $(".input7").blur(function () {
     $(this).next().next().text("请输入您的手机号码").css("color", "red");
   }
 });
+/* 验证是否登录 */
+
+var data = getCookie("Name");
+$(".logo-right .p3").click(function () {
+  if (data) {
+    location.href = "../html/personalCenter.html";
+  } else {
+    location.href = "../html/login.html";
+  }
+});
 /* 获取表单信息 */
 
 /* var add = document.querySelector(".zc");
@@ -129,7 +139,8 @@ if ($(".pass").val() != $(".pass2").val()) {
         pass: $(".pass").val()
       },
       success: function success(data) {
-        $("input").val("");
+        $("input").val(""); //清空
+
         console.log(data);
         var json = JSON.parse(data);
 

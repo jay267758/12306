@@ -32,7 +32,7 @@ if(!$link){
 //添加数据
 if($arr === "add"){ //添加数据
     // 添加数据
-    $sql4 = "insert into study (go,out) values ('$user','$pass')";
+    $sql4 = "insert into study (go,out) value ('$user','$pass')";
     $mysql_aee = mysqli_query($link,$sql4);
     if($mysql_aee){
         echo '{"err":1,"data":"购买成功"}';
